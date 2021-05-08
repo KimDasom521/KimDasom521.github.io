@@ -1,0 +1,46 @@
+div{
+    font-family:'Noto Sans KR',sans-sarlf;
+    font-weight: 300;
+    text-align: center;
+
+    width: 100%;
+    border:3px solid royalblue;
+}
+div.navigation{
+    background-color: black;
+    height: 58px;
+
+    padding-left: 58px;
+    padding-right: 58px;
+
+    display: flex;
+    flex-direction: row;
+}
+
+div.navigation button{
+    background-color:black;
+    border:8px;
+
+    color:white;
+    height: inherit;
+    width:138px;
+    text-align: center;
+}
+
+div.navigation button:hover{
+    background-color:red;
+    color:darkcyan;
+}
+div.navigation img{
+    align-self: center;
+    height: 40px;
+    padding-right:40px;
+
+    filter: invert(100%) sepia(0%) saturate(18%) hue-rotate(314deg) brightness(106%) contrast(104%);
+}
+h1{
+    border:3px solid royalblue;
+}
+p{
+    border:3px solid royalblue;
+}
