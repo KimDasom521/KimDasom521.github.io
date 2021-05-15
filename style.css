@@ -4,7 +4,6 @@ div{
     text-align: center;
 
     width: 100%;
-    border:3px solid royalblue;
 }
 div.navigation{
     background-color: black;
@@ -28,8 +27,8 @@ div.navigation button{
 }
 
 div.navigation button:hover{
-    background-color:red;
-    color:darkcyan;
+    background-color:rgb(255, 0, 0);
+    color:rgb(0, 0, 0);
 }
 div.navigation img{
     align-self: center;
@@ -38,9 +37,86 @@ div.navigation img{
 
     filter: invert(100%) sepia(0%) saturate(18%) hue-rotate(314deg) brightness(106%) contrast(104%);
 }
-h1{
-    border:3px solid royalblue;
+
+#book1 {
+    background-color: white;
+
 }
-p{
-    border:3px solid royalblue;
+#book1 .contents{
+    padding: 20px;
 }
+
+#book1 .page {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+
+    height: 150px;
+    box-shadow: 2px 1px 5px 0px #AAAAAA;
+
+}
+
+#book1 .page .text {
+    height: 120px;
+}
+
+#book1 .wrapper {
+    max-width: 900px;
+}
+.profile_pic {
+    width: 350px;
+    height: 350px;
+    padding: 10px;
+}
+
+.profile_pic img {
+    width: inherit;
+    height: inherit;
+    border-radius: 70%;
+}
+
+#book1 .arrow {
+    display: flex;
+    flex-direction: row;
+}
+
+#book1 .arrow img {
+    width: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#book1 .arrow img#left-arrow{
+    transform: scaleX(-1);
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    height: fit-content;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: row;
+
+    align-self: center;
+
+    padding: 80px;
+    margin: 0px auto;
+    max-width: 1200px;
+}
+
+h1 {
+    font-family: 'Noto Sans KR','sans-serif';
+    font-weight: 500;
+    font-size: 40px;
+    text-align: left;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+p {
+    text-align : left;
+}
+
