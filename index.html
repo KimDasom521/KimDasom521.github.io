@@ -44,16 +44,16 @@
 <div class="card" id="book2">
     <div class="wrapper">
         <div class="title">
-            <h1>태양열 조리기 원리</h1>
+            <h1>태양열 조리기의 원리</h1>
         </div>
         <div class="card-container">
             <div class="card-history">
                 <img src="img/temp.jpg" alt="history_pic">
                 <div class="text-box">
-                    <h2>유네스코 동아리</h2>
-                    <p>유네스코 동아리에 참여하였다</p>
+                    <h2>태양열 조리기의 원리</h2>
+                    <p>간단한 설명1</p>
                 </div>
-                <a href="modal/history1.html" rel="modal:open">
+                <a href="../article/article1.html">
                     <button>자세히 보기</button>
                 </a>
             </div>
@@ -69,14 +69,14 @@
         <div class="article-container">
             <div class="article">
                 <div class="article-img-container">
-                    <img src="img/temp.jpg" alt="article_pic">
+                    <img src="img/image1.jpg" alt="article_pic">
                 </div>
                 <div class="article-desc-container">
                     <div class="text-box">
                         <h2 id="article-title1">
                             <script>
                                 $(function () {
-                                    $.get('article/article1.html', function (result) {
+                                    $.get('article/article2.html', function (result) {
                                         var obj = $(result).find('h1');
                                         document.getElementById("article-title1").innerText = obj.html();
                                     });
@@ -86,7 +86,7 @@
                         <p id="article-desc1" class="article-desc">
                             <script>
                                 $(function () {
-                                    $.get('article/article1.html', function (result) {
+                                    $.get('article/article2.html', function (result) {
                                         var obj = $(result).find('p');
                                         document.getElementById("article-desc1").innerText = obj.html().substr(0, 550) + "...";
                                     });
@@ -94,7 +94,7 @@
                             </script>
                         </p>
                     </div>
-                    <a href="article/article1.html">
+                    <a href="article/article2.html">
                         <button>자세히 보기</button></a>
                 </div>
 

@@ -1,7 +1,7 @@
 window.onload = function () {
     var desc = [document.getElementById('book1_desc').innerText,
-    "문산수억고등학교 웹페이지 멘토링입니다.",
-    "잘 부탁드립니다!"]; // 문자열 목록
+    "설명2",
+    "설명3"]; // 문자열 목록
     var index = 0;
 
     var interval = setInterval(function() {
@@ -12,7 +12,7 @@ window.onload = function () {
                 index = 0;
             $(this).text(desc[index]).fadeIn(500);
         });
-    }, 4000);
+    }, 400000);
 
     var leftarrow = document.getElementById('left-arrow');
     var rightarrow = document.getElementById('right-arrow');
@@ -32,7 +32,7 @@ window.onload = function () {
                         index = 0;
                     $(this).text(desc[index]).fadeIn(500);
                 });
-            }, 4000);
+            }, 400000);
         })
     }
 
@@ -51,7 +51,7 @@ window.onload = function () {
                         index = 0;
                     $(this).text(desc[index]).fadeIn(500);
                 });
-            }, 4000);
+            }, 400000);
         })
     }
 

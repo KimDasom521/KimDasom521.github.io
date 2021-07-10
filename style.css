@@ -39,7 +39,7 @@ a {
 div.navigation button:hover {
     /* 마우스 커서를 가져다 댔을 때 변화 */
     background-color: #525252;
-    color: rgb(61, 147, 187);
+    color: #ff7d8f;
 }
 
 div.navigation img {
@@ -138,12 +138,12 @@ button {
     font-family: 'Noto Sans KR', sans-serif;
     font-weight: 400;
     font-size: 15px;
-    color: #0077ff;
+    color: #ff7d8f;
     text-align: center;
 
     /* button setting */
     background-color: #00FF0000;
-    border: #0077ff solid;
+    border: #ff7d8f solid;
     border-radius: 50px;
     border-width: 1.5px;
     padding: 10px;
@@ -151,7 +151,7 @@ button {
 }
 
 button:hover {
-    background-color: #0077ff;
+    background-color: #ff7d8f;
     color: white;
 }
 
