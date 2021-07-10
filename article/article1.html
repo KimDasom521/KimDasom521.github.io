@@ -5,58 +5,49 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="http://malsup.github.com/jquery.cycle2.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <script src="https://code.jquery.com/jquery-1.11.3.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    
     <title>Document</title>
 </head>
 <body>
     <div class="navigation">
-        <img src="../img/icon.svg" alt="logoicon">
-        <a href="https://www.instagram.com/"><button>INSTAGRAM</button></a>
-        <a href="https://github.com"><button>GITHUB</button></a>
-        <a href="https://blog.naver.com"><button>BLOG</button></a>
+        <a href="../index.html"><img src="../img/icon.png" alt="logoicon">
+        <a href="../article/article1.html"><button>태양열 조리기 원리</button></a>
+        <a href="../article/article2.html"><button>태양열 조리기 제작 과정</button></a>
+        <a href="https://www.munsan-gco.hs.kr/"><button>MUNSANSUEOK HIGHSHCOOL</button></a>
+        <a href="https://www.instagram.com/unesco.ms/"><button>INSTAGRAM</button></a>
     </div>
 <div class="card" id="book1"
 style="display: flex; flex-direction: column;">
      <div class="title">
         <h1 style="text-align: center;
-        margin-top: 20px;"> 기사제목 </h1>
+        margin-top: 20px;"> 태양열 조리기 원리 </h1>
      </div>
-     <div class="wrapper" style="margin-top: -70px;">
-            <div class="article-wrapper">
-                <div class="article-section">
-                    <div class="article-img">
-                        <img src="../img/profile.jpg"
-                        alt="article-img"
-                        id="lefting">
-                    </div>
-                    <div class="article-text">
-                        <div class="article-subtitle">
-                            <h2 id="title">소제목2</h2>
-                        </div>
-                        <div class="article-body">
-                            <p id="text" style="line-height: 170%">
-                        기사내용
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="article-section">
-                    <div class="article-text">
-                        <div class="article-subtitle">
-                            <h2 id="title">소제목2</h2>
-                        </div>
-                        <div class="article-body">
-                            <p id="text" style="line-height: 170%">
-                        기사내용
-                            </p>
-                        </div>
-                    </div>
-                    <div class="article-img">
-                        <img src="../img/profile.jpg"
-                        alt="article-img"
-                        id="righting">
-                    </div>
                 </div>
             </div>
      </div>
+    
+     <div class="slider">
+       <div>
+         <img src="https://movie-phinf.pstatic.net/20200721_250/1595306482797hfWqC_JPEG/movie_image.jpg?type=m665_443_2" alt="슬라이드 이미지1">
+       </div>
+       <div>
+         <img src="https://movie-phinf.pstatic.net/20200721_131/1595306483541uxv0I_JPEG/movie_image.jpg?type=m665_443_2" alt="슬라이드 이미지2">
+       </div>
+     </div>
+   <script>$(document).ready(function(){
+    $('.slider').bxSlider({   pager: false});
+    
+  });
+</script>
+   
+</div>
+
+  </div>
+
 </html>

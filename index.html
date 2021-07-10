@@ -14,10 +14,11 @@
 </head>
 <body>
     <div class="navigation">
-        <img src="img/icon.svg" alt="logoicon">
-        <a href="https://www.instagram.com/"><button>INSTAGRAM</button></a>
-        <a href="https://github.com"><button>GITHUB</button></a>
-        <a href="https://blog.naver.com"><button>BLOG</button></a>
+        <a href="index.html"><img src="img/icon.png" alt="logoicon">
+        <a href="../article/article1.html"><button>태양열 조리기 원리</button></a>
+        <a href="../article/article2.html"><button>태양열 조리기 제작 과정</button></a>
+        <a href="https://www.munsan-gco.hs.kr/"><button>MUNSANSUEOK HIGHSHCOOL</button></a>
+        <a href="https://www.instagram.com/unesco.ms/"><button>INSTAGRAM</button></a>
     </div>
     <div class="card" id="book1">
         <div class="wrapper">
@@ -25,12 +26,11 @@
                 <img src="img/profile.jpg" alt="profile_pic" width="400px">
             </div>
             <div class="contents">
-                <h1>홍길동</h1>
-                <p>안녕하세요?</p>
-                <p>저는 홍길동입니다.</p>
+                <h1>청소년 지속가능발전소</h1>
+                <p>(구) 유네스코 동아리</p>
             <div class="page">
                 <div class="text">
-                    <p id="book1_desc">안녕하세요? 홍길동입니다.</p>
+                    <p id="book1_desc">안녕하세요, 저희는 경기도 파주시에 위치한 문산수억고등학교의 정규 동아리 '청소년 지속가능발전소'입니다.</p>
                 </div>
                 <div class="arrow">
                     <img src="img/next.svg" alt="left" id="left-arrow">
@@ -44,7 +44,7 @@
 <div class="card" id="book2">
     <div class="wrapper">
         <div class="title">
-            <h1>Title</h1>
+            <h1>태양열 조리기 원리</h1>
         </div>
         <div class="card-container">
             <div class="card-history">
@@ -57,26 +57,6 @@
                     <button>자세히 보기</button>
                 </a>
             </div>
-            <div class="card-history">
-                <img src="img/temp.jpg" alt="history_pic">
-                <div class="text-box">
-                    <h2>유네스코 동아리</h2>
-                    <p>유네스코 동아리에 참여하였다</p>
-                </div>
-                <a href="modal/history2.html" rel="modal:open">
-                    <button>자세히 보기</button>
-                </a>
-            </div>
-            <div class="card-history">
-                <img src="img/temp.jpg" alt="history_pic">
-                <div class="text-box">
-                    <h2>유네스코 동아리</h2>
-                    <p>유네스코 동아리에 참여하였다</p>
-                </div>
-                <a href="modal/history3.html" rel="modal:open">
-                    <button>자세히 보기</button>
-                </a>
-            </div>
         </div>
     </div>
 </div>
@@ -84,7 +64,7 @@
 <div class="card" id="book3">
     <div class="wrapper">
         <div class="title">
-            <h1>Title</h1>
+            <h1>태양열 조리기 제작과정</h1>
         </div>
         <div class="article-container">
             <div class="article">
@@ -117,40 +97,10 @@
                     <a href="article/article1.html">
                         <button>자세히 보기</button></a>
                 </div>
-            </div>
-            <div class="article">
-                <div class="article-img-container">
-                    <img src="img/temp.jpg" alt="article_pic">
-                </div>
-                <div class="article-desc-container">
-                    <div class="text-box">
-                        <h2 id="article-title2">
-                            <script>
-                                $(function () {
-                                    $.get('article/article2.html', function (result) {
-                                        var obj = $(result).find('h1');
-                                        document.getElementById("article-title2").innerText = obj.html();
-                                    });
-                                });
-                            </script>
-                            </h2>
-                        <p id="article-desc2" class="article-desc">
-                            <script>
-                                $(function () {
-                                    $.get('article/article2.html', function (result) {
-                                        var obj = $(result).find('p');
-                                        document.getElementById("article-desc2").innerText = obj.html().substr(0, 550) + "...";
-                                    });
-                                });
-                            </script>
-                        </p>
-                    </div>
-                    <a href="article/article2.html">
-                    <button>자세히 보기</button></a>
-                </div>
-            </div>
+
         </div>
     </div>
+    
 </div>
 </body>
 </html>

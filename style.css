@@ -6,17 +6,18 @@ div {
     text-align: center;
 
     width: 100%;
+    
 
     /* border: 3px solid royalblue; */
 }
 
 div.navigation {
-    background-color:#303030;     /* 배경색 */
+    background-color:#393E46;     /* 배경색 */
     height:60px;                    /* 높이 */
 
     padding-left:50px;              /* 왼쪽 여백 */
     padding-right:50px;             /* 오른쪽 여백 */
-
+    position: fixed;
     display: flex;                  /* 가로 방향으로, contents의 크기만큼 */
     flex-direction: row;
 }
@@ -38,16 +39,13 @@ a {
 div.navigation button:hover {
     /* 마우스 커서를 가져다 댔을 때 변화 */
     background-color: #525252;
-    color: magenta;
+    color: rgb(61, 147, 187);
 }
 
 div.navigation img {
     align-self: center;
-    height: 40px;
+    height: 55px;
     padding-right: 40px;
-
-    filter: invert(100%) sepia(0%) saturate(18%)
-    hue-rotate(314deg) brightness(106%) contrast(104%);
 }
 
 .card {
@@ -65,10 +63,12 @@ div.navigation img {
     padding: 80px;
     margin: 0px auto;
     max-width:1200px;
+    padding-bottom: 75px;
 }
 
 #book1 {
-    background-color: #F7FAFC;
+    background-color: #EEEEEE;
+    padding-top: 75px;
 }
 
 #book1 .contents {
@@ -158,6 +158,7 @@ button:hover {
 .title h1{
     text-align: center;
     padding-bottom: 40px;
+    
 }
 
 h2 {
@@ -168,7 +169,7 @@ h2 {
 }
 
 #book2 {
-    background-color: #ADD5F7;
+    background-color: #AAD8D3;
 }
 
 #book2 .wrapper {
@@ -214,7 +215,7 @@ div.card-history {
 }
 
 #book3 {
-    background-color: #4e7ac7;
+    background-color: #00ADB5;
 }
 
 #book3 .title {
@@ -330,3 +331,15 @@ p {
     display: none;
 }
 
+.slider img{
+    margin:0 auto;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+
+
+  }
