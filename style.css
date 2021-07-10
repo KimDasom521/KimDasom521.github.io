@@ -11,6 +11,7 @@ div {
     /* border: 3px solid royalblue; */
 }
 
+    
 
 div.navigation {
     background-color:#393E46;     /* 배경색 */
@@ -55,7 +56,6 @@ div.navigation img {
     height: 55px;
     padding-right: 40px;
 }
-
 
 
 
@@ -163,6 +163,8 @@ h1 {
 }
 
 
+
+
 p {
     text-align: left;
     margin-bottom: 10px;
@@ -190,7 +192,6 @@ button {
 
 
 
-
 button:hover {
     background-color: #ff7d8f;
     color: white;
@@ -204,7 +205,6 @@ button:hover {
     padding-bottom: 40px;
     
 }
-
 
 
 h2 {
