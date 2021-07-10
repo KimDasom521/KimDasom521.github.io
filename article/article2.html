@@ -6,6 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <script src="https://code.jquery.com/jquery-1.11.3.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
 </head>
 <body>
     <div class="navigation">
@@ -21,42 +24,20 @@ style="display: flex; flex-direction: column;">
         <h1 style="text-align: center;
         margin-top: 20px;"> 태양열 조리기 제작과정 </h1>
      </div>
-     <div class="wrapper" style="margin-top: -70px;">
-            <div class="article-wrapper">
-                <div class="article-section">
-                    <div class="article-img">
-                        <img src="../img/image1.jpg"
-                        alt="article-img"
-                        id="lefting">
-                    </div>
-                    <div class="article-text">
-                        <div class="article-subtitle">
-                            <h2 id="title">소제목1</h2>
-                        </div>
-                        <div class="article-body">
-                            <p id="text" style="line-height: 170%">
-                        내용1
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="article-section">
-                    <div class="article-text">
-                        <div class="article-subtitle">
-                            <h2 id="title">소제목2</h2>
-                        </div>
-                        <div class="article-body">
-                            <p id="text" style="line-height: 170%">
-                        내용2
-                            </p>
-                        </div>
-                    </div>
-                    <div class="article-img">
-                        <img src="../img/image2.jpg"
-                        alt="article-img"
-                        id="righting">
-                    </div>
-                </div>
-            </div>
+     <div class="slider">
+        <div>
+          <img src="../img/image4.jpg" alt="슬라이드 이미지1">
+        </div>
+        <div>
+          <img src="../img/image3.jpg" alt="슬라이드 이미지2">
+        </div>
+      </div>
+    <script>$(document).ready(function(){
+     $('.slider').bxSlider({   pager: false});
+     
+   });
+ </script>
+    
+ </div>
      </div>
 </html>
