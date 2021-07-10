@@ -11,6 +11,7 @@ div {
     /* border: 3px solid royalblue; */
 }
 
+
 div.navigation {
     background-color:#393E46;     /* 배경색 */
     height:60px;                    /* 높이 */
@@ -22,6 +23,8 @@ div.navigation {
     flex-direction: row;
 }
 
+
+
 div.navigation button {
     background-color: #00000000;
     border: 0px;
@@ -32,9 +35,12 @@ div.navigation button {
     text-align: center;
 }
 
+
+
 a {
     height: inherit;
 }
+
 
 div.navigation button:hover {
     /* 마우스 커서를 가져다 댔을 때 변화 */
@@ -42,17 +48,23 @@ div.navigation button:hover {
     color: #ff7d8f;
 }
 
+
+
 div.navigation img {
     align-self: center;
     height: 55px;
     padding-right: 40px;
 }
 
+
+
+
 .card {
     display: flex;
     flex-direction: row;
     height: fit-content;
 }
+
 
 .wrapper {
     display: flex;
@@ -66,14 +78,19 @@ div.navigation img {
     padding-bottom: 75px;
 }
 
+
 #book1 {
     background-color: #EEEEEE;
     padding-top: 75px;
 }
 
+
 #book1 .contents {
     padding: 20px;
 }
+
+
+
 
 #book1 .page {
     background-color: white;
@@ -84,13 +101,19 @@ div.navigation img {
     box-shadow: 2px 1px 5px 0px #AAAAAA;
 }
 
+
 #book1 .page .text {
     height: 120px;
 }
 
+
+
 #book1 .wrapper {
     max-width: 900px;
 }
+
+
+
 
 .profile_pic {
     width: 350px;
@@ -98,16 +121,23 @@ div.navigation img {
     padding: 10px;
 }
 
+
 .profile_pic img {
     width: inherit;
     height: inherit;
     border-radius: 70%;
 }
 
+
+
+
 #book1 .arrow {
     display: flex;
     flex-direction: row;
 }
+
+
+
 
 #book1 .arrow img {
     width: 20px;
@@ -115,9 +145,13 @@ div.navigation img {
     margin-right: 10px;
 }
 
+
+
 #book1 .arrow img#left-arrow{
     transform: scaleX(-1);
 }
+
+
 
 h1 {
     font-family: 'Noto Sans KR', sans-serif;
@@ -128,10 +162,14 @@ h1 {
     padding-bottom: 20px;
 }
 
+
 p {
     text-align: left;
     margin-bottom: 10px;
 }
+
+
+
 
 button {
     /* text setting */
@@ -150,16 +188,24 @@ button {
 
 }
 
+
+
+
 button:hover {
     background-color: #ff7d8f;
     color: white;
 }
+
+
+
 
 .title h1{
     text-align: center;
     padding-bottom: 40px;
     
 }
+
+
 
 h2 {
     font-weight: 500;
@@ -168,14 +214,21 @@ h2 {
     padding-bottom: 15px;
 }
 
+
+
 #book2 {
     background-color: #AAD8D3;
 }
+
+
 
 #book2 .wrapper {
     display: flex;
     flex-direction: column;
 }
+
+
+
 
 div.card-container {
     display: flex;
@@ -184,6 +237,7 @@ div.card-container {
     width: fit-content;
     height: fit-content;
 }
+
 
 div.card-history {
     width: 300px;
@@ -196,17 +250,23 @@ div.card-history {
     flex-direction: column;
 }
 
+
+
 .card-history img{
     width: 100%;
     height: 250px;
     object-fit: cover;
 }
 
+
+
 .card-history .text-box {
     padding: 15px;
     width: auto;
     height: fit-content;
 }
+
+
 
 .card-history button {
     align-self: center;
@@ -217,6 +277,7 @@ div.card-history {
 #book3 {
     background-color: #00ADB5;
 }
+
 
 #book3 .title {
     color: white;
