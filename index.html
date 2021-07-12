@@ -9,13 +9,15 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css">
     <script type="text/javascript" src="index.js"></script>
-    <title>Document</title>
+    <title>청소년 지속가능발전소</title>
 </head>
 <body>
     <div class="navigation">
         <a href="index.html"><img src="img/icon.png" alt="logoicon">
-        <a href="../article/article1.html"><button>태양열 조리기 원리</button></a>
-        <a href="../article/article2.html"><button>태양열 조리기 제작 과정</button></a>
+        <a href="../department/diplomacy.html"><button>정치외교·교육</button></a>
+        <a href="../department/bio.html"><button>생명공학</button></a>
+        <a href="../department/administration.html"><button>경영·경제</button></a>
+        <a href="../department/tech.html"><button>공학·기술</button></a>
         <a href="https://www.munsan-gco.hs.kr/"><button>MUNSANSUEOK HIGHSHCOOL</button></a>
         <a href="https://www.instagram.com/unesco.ms/"><button>INSTAGRAM</button></a>
     </div>
@@ -43,16 +45,16 @@
 <div class="card" id="book2">
     <div class="wrapper">
         <div class="title">
-            <h1>태양열 조리기의 원리</h1>
+            <h1>정치외교·교육</h1>
         </div>
         <div class="card-container">
             <div class="card-history">
                 <img src="img/temp.jpg" alt="history_pic">
                 <div class="text-box">
-                    <h2>태양열 조리기의 원리</h2>
-                    <p>간단한 설명1</p>
+                    <h2>한국판 뉴딜정책</h2>
+                    <p>캠페인으로 알아보는 한국판 뉴딜정책! 쉽고 간단하게 배우고 퀴즈까지 풀 수 있는 기회!</p>
                 </div>
-                <a href="../article/article1.html">
+                <a href="../department/diplomacy.html">
                     <button>자세히 보기</button>
                 </a>
             </div>
@@ -63,41 +65,63 @@
 <div class="card" id="book3">
     <div class="wrapper">
         <div class="title">
-            <h1>태양열 조리기 제작과정</h1>
+            <h1>생명공학</h1>
         </div>
-        <div class="article-container">
-            <div class="article">
-                <div class="article-img-container">
-                    <img src="img/image1.jpg" alt="article_pic">
+        <div class="card-container">
+            <div class="card-history">
+                <img src="img/bio1.png" alt="history_pic">
+                <div class="text-box">
+                    <h2>동물과 인간의 공존</h2>
+                    <p>인간과 동물은 똑같이 하나의 지구를 생명의 터전으로 삼고 있으며, 자연의 일부로서 교류하고 공존하는 생명체라는 의미로 받아 들여진다.</p>
                 </div>
-                <div class="article-desc-container">
-                    <div class="text-box">
-                        <h2 id="article-title1">
-                            <script>
-                                $(function () {
-                                    $.get('article/article2.html', function (result) {
-                                        var obj = $(result).find('h1');
-                                        document.getElementById("article-title1").innerText = obj.html();
-                                    });
-                                });
-                            </script>
-                        </h2>
-                        <p id="article-desc1" class="article-desc">
-                            <script>
-                                $(function () {
-                                    $.get('article/article2.html', function (result) {
-                                        var obj = $(result).find('p');
-                                        document.getElementById("article-desc1").innerText = obj.html().substr(0, 550) + "...";
-                                    });
-                                });
-                            </script>
-                        </p>
-                    </div>
-                    <a href="article/article2.html">
-                        <button>자세히 보기</button></a>
-                </div>
+                <a href="../department/bio.html">
+                    <button>자세히 보기</button>
+                </a>
+            </div>
+        </div>
 
         </div>
+    </div>
+
+    <div class="card" id="book4">
+        <div class="wrapper">
+            <div class="title">
+                <h1>경영·경제</h1>
+            </div>
+            <div class="card-container">
+                <div class="card-history">
+                    <img src="img/temp.jpg" alt="history_pic">
+                    <div class="text-box">
+                        <h2>ESG 경영</h2>
+                        <p>미래 모든 기업들의 필수 비재무적 요소, 'E', 'S', 'G'로 급성장한 기업들, 치솟는 주가!</p>
+                    </div>
+                    <a href="../department/administration.html">
+                        <button>자세히 보기</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="card" id="book5">
+    <div class="wrapper">
+        <div class="title">
+            <h1>공학·기술</h1>
+        </div>
+        <div class="card-container">
+            <div class="card-history">
+                <img src="img/temp.jpg" alt="history_pic">
+                <div class="text-box">
+                    <h2>태양열 조리기</h2>
+                    <p>햇살을 나누는 아름다운 발명, 기술에 마음을 더한 적정기술</p>
+                </div>
+                <a href="../department/tech.html">
+                    <button>자세히 보기</button>
+                </a>
+            </div>
+        </div>
+
+
+
     </div>
     
 </div>

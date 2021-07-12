@@ -80,7 +80,7 @@ div.navigation img {
 
 
 #book1 {
-    background-color: #EEEEEE;
+    background-color: #f1f1f1;
     padding-top: 75px;
 }
 
@@ -98,12 +98,13 @@ div.navigation img {
     margin-top: 20px;
 
     height: 150px;
-    box-shadow: 2px 1px 5px 0px #AAAAAA;
+    box-shadow: 2px 1px 5px 0px #7e7e7e;
 }
 
 
 #book1 .page .text {
     height: 120px;
+    line-height:20px; 
 }
 
 
@@ -150,6 +151,7 @@ div.navigation img {
 #book1 .arrow img#left-arrow{
     transform: scaleX(-1);
 }
+
 
 
 
@@ -217,9 +219,8 @@ h2 {
 
 
 #book2 {
-    background-color: #AAD8D3;
+    background-color: #a1dad7;
 }
-
 
 
 #book2 .wrapper {
@@ -242,7 +243,7 @@ div.card-container {
 div.card-history {
     width: 300px;
     background-color: #FFFFFF;
-    box-shadow: 0px 0px 5px 0px #AAAAAA;
+    box-shadow: 0px 0px 5px 0px #444444;
     margin: 10px;
 
     height: fit-content;
@@ -264,6 +265,7 @@ div.card-history {
     padding: 15px;
     width: auto;
     height: fit-content;
+    line-height:20px; 
 }
 
 
@@ -275,7 +277,7 @@ div.card-history {
 }
 
 #book3 {
-    background-color: #00ADB5;
+    background-color: #41B6C4;
 }
 
 
@@ -286,6 +288,7 @@ div.card-history {
 #book3 .wrapper {
     display: flex;
     flex-direction: column;
+    
 }
 
 .article {
@@ -294,7 +297,7 @@ div.card-history {
     background-color: white;
     height: fit-content;
 
-    margin-bottom: 20px;
+    margin-bottom: 100px;
 }
 
 .article-img-container {
@@ -303,6 +306,7 @@ div.card-history {
 }
 
 .article-img-container img {
+    margin-top: 50px;
     width: 350px;
     height: 215px;
     object-fit: cover;
@@ -339,17 +343,20 @@ p {
 .article-img #lefting {
     width: 400px;
     height: 500px;
+    margin-top: 130px;
+    margin-left: 10px;
     object-fit: cover;
-    border-top-left-radius: 20px;
-
+    border-radius: 20px;
 }
 
 
 .article-img #righting {
+    margin-top: 130px;
+    margin-right: 10px;
     width: 400px;
-    height: 500px;
+    height: 450px;
     object-fit: cover;
-    border-top-right-radius: 20px;
+    border-radius: 20px;
 }
 
 .article-section {
@@ -404,3 +411,34 @@ html, body {
 
 
   }
+
+#book4 {
+    background-color: #2C7FB8;
+    margin-left: 0px;
+}
+
+#book4 .title {
+    color: white;
+}
+
+#book4 .wrapper {
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+#book5 {
+    background-color: #254894;
+}
+
+
+#book5 .title {
+    color: white;
+}
+
+#book5 .wrapper {
+    display: flex;
+    flex-direction: column;
+    
+}
