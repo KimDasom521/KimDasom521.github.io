@@ -399,8 +399,11 @@ p {
     display: none;
 }
 
-.slider img{
-    margin:0 auto;
+
+.slider {
+    display: block;
+    margin: 0 auto;
+    text-align: center
 }
 
 html, body {
@@ -441,4 +444,10 @@ html, body {
     display: flex;
     flex-direction: column;
     
+}
+
+.bx-wrapper{
+    width: 600px;
+    margin: 0 auto;
+
 }
