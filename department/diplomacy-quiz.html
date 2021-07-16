@@ -1,0 +1,188 @@
+
+<head>
+    <script type="text/Javascript" src="index.js"></script>
+    <link rel="stylesheet" href="../style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="http://malsup.github.com/jquery.cycle2.js"></script>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <script src="https://code.jquery.com/jquery-1.11.3.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    <link rel="shortcut icon" href="../img/favicon.png" type="image/x-icon"> 
+    <link rel="icon" href="../img/favicon.png" type="image/x-icon">
+    <title>청소년 지속가능발전소</title>
+    <link rel="stylesheet" type="text/css" href="../dist/jquery.quiz-min.css" />
+</head>
+<body>
+  <div class="navigation">
+    <a href="../index.html"><img src="../img/icon.png" alt="logoicon">
+      <a href="../department/diplomacy.html"><button>정치외교·교육</button></a>
+      <a href="../department/bio.html"><button>생명</button></a>
+      <a href="../department/administration.html"><button>경영·경제</button></a>
+      <a href="../department/tech.html"><button>공학</button></a>
+
+</div>
+
+
+<div class="card" id="book1"
+style="display: flex; flex-direction: column;">
+
+
+    <div id="quiz">
+     <div id="quiz-header">
+      <h1 style="text-align: center;
+      margin-top: 20px;"> 한국판 뉴딜정책 QUIZ </h1>
+     </div>
+     <div id="quiz-start-screen">
+       <p><a href="#" id="quiz-start-btn" class="quiz-button">시작</a></p>
+     </div>
+     
+   </div>
+   
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+   <script src="../dist/jquery.quiz-min.js"></script>
+   <script>
+     $('#quiz').quiz({
+       //resultsScreen: '#results-screen',
+       //counter: false,
+       //homeButton: '#custom-home',
+
+       questions: [
+         {
+           'q': 'A smaple question?',
+           'options': [
+             'Answer 1',
+             'Answer 2',
+             'Answer 3',
+             'Answer 4'
+           ],
+           'correctIndex': 1,
+           'correctResponse': '맞았습니다!',
+           'incorrectResponse': '틀렸습니다!'
+         },
+         {
+           'q': 'A smaple question?',
+           'options': [
+             'Answer 1',
+             'Answer 2'
+           ],
+           'correctIndex': 1,
+           'correctResponse': '맞았습니다!',
+           'incorrectResponse': '틀렸습니다!'
+         },
+         {
+           'q': 'A smaple question?',
+           'options': [
+             'Answer 1',
+             'Answer 2',
+             'Answer 3',
+             'Answer 4'
+           ],
+           'correctIndex': 2,
+           'correctResponse': '맞았습니다!',
+           'incorrectResponse': '틀렸습니다!'
+         },
+         {
+           'q': 'A smaple question?',
+           'options': [
+             'Answer 1',
+             'Answer 2'
+           ],
+           'correctIndex': 1,
+           'correctResponse': '맞았습니다!',
+           'incorrectResponse': '틀렸습니다!'
+         },
+         {
+           'q': 'A smaple question?',
+           'options': [
+             'Answer 1',
+             'Answer 2',
+             'Answer 3',
+             'Answer 4'
+           ],
+           'correctIndex': 3,
+           'correctResponse': '맞았습니다!',
+           'incorrectResponse': '틀렸습니다!'
+         }
+       ]
+     });
+   </script>
+          <p><a id="quiz-home-btn">처음으로</a></p>
+      <style>
+        #quiz-response {                color: #ff7d8f;text-align: center;}
+        #quiz-counter,        #questions,#quiz-results {                color: #777777;text-align: center;}
+        #quiz{
+            margin:auto;
+            width:600px;
+            margin:auto;
+            display:block;
+            text-align: center;
+        }
+#quiz-controls {
+  width:500px;
+            margin:auto;
+            display:block;
+            text-align: center;
+}
+#quiz-home-btn{
+  width:200px;
+  text-align: center;
+            margin:auto;
+            display:block;
+            background-color: #ffffff;
+    border: #ff7d8f solid;
+    border-radius: 50px;
+    border-width: 1.5px;
+    padding: 10px;
+    color: #ff7d8f;
+        }
+
+        #quiz-home-btn:hover {
+            background-color: #ff7d8f;
+            color: white;
+        }
+#quiz-start-btn{
+  width:200px;
+  text-align: center;
+            margin:auto;
+            display:block;
+              /* text setting */
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #ff7d8f;
+    text-align: center;
+
+    /* button setting */
+    background-color: #ffffff;
+    border: #ff7d8f solid;
+    border-radius: 50px;
+    border-width: 1.5px;
+    padding: 10px;
+
+        }
+
+   
+#quiz-start-btn:hover {
+            background-color: #ff7d8f;
+            color: white;
+        }
+        
+
+    </style>   
+        </div>
+      
+
+   </div>
+           
+
+              
+
+  <style> body {
+    background-color: #f1f1f1;
+  
+  }</style>
+  </body>
+</html>
