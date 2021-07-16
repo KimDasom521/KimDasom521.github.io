@@ -78,6 +78,9 @@ div.navigation img {
     padding-bottom: 75px;
 }
 
+.body {
+    background-color: #b34f4f;
+}
 
 #book1 {
     background-color: #f1f1f1;
@@ -110,7 +113,8 @@ div.navigation img {
 
 
 #book1 .wrapper {
-    max-width: 900px;
+    max-width: 800px;
+    height: 100%;
 }
 
 
@@ -372,10 +376,6 @@ p {
     flex-direction: column;
     height: fit-content;
     box-shadow: 2px 1px 5px 0px #AAAAAA;
-}
-
-.article-subtitle{
-    border-bottom: #AAAAAA solid 1px;
 }
 
 .article-body{
