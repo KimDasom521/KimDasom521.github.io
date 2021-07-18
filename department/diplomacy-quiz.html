@@ -28,88 +28,89 @@
 <div class="card" id="book1"
 style="display: flex; flex-direction: column;">
 
-
-    <div id="quiz">
-     <div id="quiz-header">
-      <h1 style="text-align: center;
-      margin-top: 20px;"> 한국판 뉴딜정책 QUIZ </h1>
-     </div>
-     <div id="quiz-start-screen">
-       <p><a href="#" id="quiz-start-btn" class="quiz-button">시작하기</a></p>
-     </div>
-     
-   </div>
+<div id="quiz">
+  <div id="quiz-header">
+    <h1 style="text-align: center;
+    margin-top: 20px;"> 한국판 뉴딜정책 QUIZ</h1>
+  </div>
+  <div id="quiz-start-screen">
+    <div><a href="#" id="quiz-start-btn" class="quiz-button">시작하기</a></div>
+  </div>
+  <div id="quiz-results-screen">
+    <p style="text-align: center;
+    margin-top: 20px;color: #ff7d8f;">퀴즈를 끝까지 풀었습니다!</p>
+  </div>
+  <div id="quiz-gameover-screen">
    
-   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
-   <script src="../dist/jquery.quiz-min.js"></script>
-   <script>
-     $('#quiz').quiz({
-       //resultsScreen: '#results-screen',
-       //counter: false,
-       //homeButton: '#custom-home',
-
-       questions: [
-         {
-           'q': 'A smaple question?',
-           'options': [
-             'Answer 1',
-             'Answer 2',
-             'Answer 3',
-             'Answer 4'
-           ],
-           'correctIndex': 1,
-           'correctResponse': '맞았습니다!',
-           'incorrectResponse': '틀렸습니다!'
-         },
-         {
-           'q': 'A smaple question?',
-           'options': [
-             'Answer 1',
-             'Answer 2'
-           ],
-           'correctIndex': 1,
-           'correctResponse': '맞았습니다!',
-           'incorrectResponse': '틀렸습니다!'
-         },
-         {
-           'q': 'A smaple question?',
-           'options': [
-             'Answer 1',
-             'Answer 2',
-             'Answer 3',
-             'Answer 4'
-           ],
-           'correctIndex': 2,
-           'correctResponse': '맞았습니다!',
-           'incorrectResponse': '틀렸습니다!'
-         },
-         {
-           'q': 'A smaple question?',
-           'options': [
-             'Answer 1',
-             'Answer 2'
-           ],
-           'correctIndex': 1,
-           'correctResponse': '맞았습니다!',
-           'incorrectResponse': '틀렸습니다!'
-         },
-         {
-           'q': 'A smaple question?',
-           'options': [
-             'Answer 1',
-             'Answer 2',
-             'Answer 3',
-             'Answer 4'
-           ],
-           'correctIndex': 3,
-           'correctResponse': '맞았습니다!',
-           'incorrectResponse': '틀렸습니다!'
-         }
-         
-       ]
-     });
-   </script>
-          <p><a id="quiz-home-btn">초기화</a></p>
+    <p style="text-align: center;
+    margin-top: 20px; color: #ff7d8f;" id="quiz-gameover-response"></p>
+    <p><a href="#" id="quiz-retry-btn">다시하기</a></p>
+  </div>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+<script src="../dist/jquery.quiz-min.js"></script>
+<script>
+  $('#quiz').quiz({
+    //resultsScreen: '#results-screen',
+    //counter: false,
+    homeButton: '#custom-home',
+    counterFormat: 'Question %current',
+    allowIncorrect: false,
+    questions: [
+      {
+        'q': 'A smaple question?',
+        'options': [
+          'Answer 1',
+          'Answer 2'
+        ],
+        'correctIndex': 1,
+        'correctResponse': 'Custom correct response.',
+        'incorrectResponse': 'Custom incorrect response.'
+      },
+      {
+        'q': 'A smaple question?',
+        'options': [
+          'Answer 1',
+          'Answer 2'
+        ],
+        'correctIndex': 1,
+        'correctResponse': 'Custom correct response.',
+        'incorrectResponse': 'Custom incorrect response.'
+      },
+      {
+        'q': 'A smaple question?',
+        'options': [
+          'Answer 1',
+          'Answer 2'
+        ],
+        'correctIndex': 0,
+        'correctResponse': 'Custom correct response.',
+        'incorrectResponse': 'Custom incorrect response.'
+      },
+      {
+        'q': 'A smaple question?',
+        'options': [
+          'Answer 1',
+          'Answer 2'
+        ],
+        'correctIndex': 1,
+        'correctResponse': 'Custom correct response.',
+        'incorrectResponse': 'Custom incorrect response.'
+      },
+      {
+        'q': 'A smaple question?',
+        'options': [
+          'Answer 1',
+          'Answer 2'
+        ],
+        'correctIndex': 0,
+        'correctResponse': 'Custom correct response.',
+        'incorrectResponse': 'Custom incorrect response.'
+      }
+    ]
+  });
+</script>
+        
       <style>
         #quiz-restart-btn{display: block;}
         #quiz-response {                color: #ff7d8f;text-align: center;}
@@ -128,7 +129,8 @@ style="display: flex; flex-direction: column;">
             display:block;
             text-align: center;
 }
-#quiz-home-btn{
+
+#quiz-retry-btn{
   width:200px;
   text-align: center;
             margin:auto;
@@ -141,7 +143,7 @@ style="display: flex; flex-direction: column;">
     color: #ff7d8f;
         }
 
-        #quiz-home-btn:hover {
+        #custom-home:hover,#quiz-retry-btn:hover{
             background-color: #ff7d8f;
             color: white;
         }
@@ -166,7 +168,6 @@ style="display: flex; flex-direction: column;">
 
         }
 
-   
 #quiz-start-btn:hover {
             background-color: #ff7d8f;
             color: white;
