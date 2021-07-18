@@ -13,14 +13,13 @@
 .answers a.correct,.answers a.incorrect{color:#fff;text-align: center;}
 #quiz-controls{color:rgb(0, 0, 0);padding:.5em 1em;text-align:center;border-radius:10px}
 #quiz-results{font-size:1.25em; text-align: center;}
-#quiz-buttons a,.quiz-container .quiz-button{display:inline-block;padding:.5em 1em;background:#333;color:#fff;border-radius:10px}
+#quiz-buttons a,.quiz-container .quiz-button{display:inline-block;padding:.5em 1em;color:#fff;border-radius:10px}
 #quiz-buttons a{     /* text setting */
     font-family: 'Noto Sans KR', sans-serif;
     font-weight: 400;
     font-size: 15px;
     color: #ff7d8f;
     text-align: center;
-
     /* button setting */
     border: #ff7d8f solid;
     border-radius: 50px;
@@ -31,7 +30,4 @@
     #quiz-buttons a:hover{background-color: #ff7d8f;
         color: white;}
 .quiz-results-state #quiz-controls{background:0 0;padding:0}
-.quiz-results-state #quiz-buttons a{background-color: #ffffff;
-    color: #ff7d8f;}
-    .quiz-results-state #quiz-buttons a:hover{background-color: #ff7d8f;
-        color: #ffffff;}
+
