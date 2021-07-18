@@ -72,7 +72,6 @@ div.navigation img {
 
     align-self: center;
 
-    padding: 80px;
     margin: 0px auto;
     max-width:1200px;
     padding-bottom: 75px;
@@ -449,11 +448,6 @@ html, body {
     padding-bottom: 60px;
 
 }
-
-.minimize entry{  
-    width: 600px;
-    margin: 0 auto;
-    padding-bottom: 60px;}
 
     
 
