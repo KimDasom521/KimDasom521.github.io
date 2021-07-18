@@ -162,6 +162,7 @@ h1 {
     text-align: left;
     padding-top: 50px;
     padding-bottom: 50px;
+    
 }
 
 
@@ -211,7 +212,7 @@ button:hover {
 
 h2 {
     font-weight: 500;
-    font-size: 30px;
+    font-size: 27.3px;
     text-align: left;
     padding-bottom: 15px;
 }
@@ -246,7 +247,7 @@ div.card-history {
     box-shadow: 0px 0px 5px 0px #444444;
     margin: 10px;
 
-
+    height: fit-content;
     display: flex;
     flex-direction: column;
 }
@@ -264,7 +265,7 @@ div.card-history {
 .card-history .text-box {
     padding: 15px;
     width: auto;
-    height: fit-content;
+    height: 110px;
     line-height:20px; 
 }
 
