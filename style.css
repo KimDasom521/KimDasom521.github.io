@@ -22,6 +22,7 @@ div.navigation {
     position: fixed;
     display: flex;                  /* 가로 방향으로, contents의 크기만큼 */
     flex-direction: row;
+    z-index: 9999;
 }
 
 
@@ -402,7 +403,7 @@ p {
 .slider {
     display: block;
     margin: 0 auto;
-    text-align: center
+    text-align: center;
 }
 
 html, body {
@@ -449,9 +450,7 @@ html, body {
     width: 600px;
     margin: 0 auto;
     padding-bottom: 60px;
-
+    z-index: 1;
 }
 
-
-    
 
