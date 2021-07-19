@@ -38,7 +38,8 @@ style="display: flex; flex-direction: column;">
   </div>
   <div id="quiz-results-screen">
     <p style="text-align: center;
-    margin-top: 20px;color: #ff7d8f;">퀴즈를 끝까지 풀었습니다!</p>
+    margin-top: 20px;color: #ff7d8f;">퀴즈를 끝까지 풀었습니다!
+    <br>이 화면을 캡쳐해서 소감문 작성 시 첨부하세요.</p>
   </div>
   <div id="quiz-gameover-screen">
    
@@ -54,58 +55,58 @@ style="display: flex; flex-direction: column;">
     //resultsScreen: '#results-screen',
     //counter: false,
     homeButton: '#custom-home',
-    counterFormat: 'Question %current',
+    counterFormat: 'QUIZ %current',
     allowIncorrect: false,
     questions: [
       {
-        'q': 'A smaple question?',
+        'q': '환경과 사람이 중심이 되는 지속가능한 발전은 디지털 뉴딜이다.',
         'options': [
-          'Answer 1',
-          'Answer 2'
+          'O',
+          'X'
         ],
         'correctIndex': 1,
-        'correctResponse': 'Custom correct response.',
-        'incorrectResponse': 'Custom incorrect response.'
+        'correctResponse': '맞췄습니다!',
+        'incorrectResponse': '틀렸습니다!'
       },
       {
-        'q': 'A smaple question?',
+        'q': '한국판 뉴딜 덕분에 재생 에너지 발전 설비가 3배 이상 증가할 것으로 보인다.',
         'options': [
-          'Answer 1',
-          'Answer 2'
-        ],
-        'correctIndex': 1,
-        'correctResponse': 'Custom correct response.',
-        'incorrectResponse': 'Custom incorrect response.'
-      },
-      {
-        'q': 'A smaple question?',
-        'options': [
-          'Answer 1',
-          'Answer 2'
+        'O',
+          'X'
         ],
         'correctIndex': 0,
-        'correctResponse': 'Custom correct response.',
-        'incorrectResponse': 'Custom incorrect response.'
+        'correctResponse': '맞췄습니다!',
+        'incorrectResponse': '틀렸습니다!'
       },
       {
-        'q': 'A smaple question?',
+        'q': '한국판 뉴딜은 메르스로 인한 경제 위기를 극복하기 위해 마련한 정책이다.',
         'options': [
-          'Answer 1',
-          'Answer 2'
+        'O',
+          'X'
         ],
         'correctIndex': 1,
-        'correctResponse': 'Custom correct response.',
-        'incorrectResponse': 'Custom incorrect response.'
+        'correctResponse': '맞췄습니다!',
+        'incorrectResponse': '틀렸습니다!'
       },
       {
-        'q': 'A smaple question?',
+        'q': '한국판 뉴딜의 성공 조건에는 상호 간 대화를 통해 갈등을 해소시키는 방법이 있다.',
         'options': [
-          'Answer 1',
-          'Answer 2'
+        'O',
+          'X'
         ],
         'correctIndex': 0,
-        'correctResponse': 'Custom correct response.',
-        'incorrectResponse': 'Custom incorrect response.'
+        'correctResponse': '맞췄습니다!',
+        'incorrectResponse': '틀렸습니다!'
+      },
+      {
+        'q': '한국판 뉴딜은 디지털 뉴딜과 그린 뉴딜에 집중함으로써 대한민국 세계 최대 강국으로 도약시키고자 하는 목표가 있다.',
+        'options': [
+        'O',
+          'X'
+        ],
+        'correctIndex': 0,
+        'correctResponse': '맞췄습니다!',
+        'incorrectResponse': '틀렸습니다!'
       }
     ]
   });
